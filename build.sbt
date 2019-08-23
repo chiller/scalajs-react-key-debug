@@ -7,7 +7,7 @@ scalaVersion := "2.12.8"
 
 enablePlugins(ScalaJSPlugin)
 
-libraryDependencies += "com.github.japgolly.scalajs-react" %%% "core" % "1.4.0"
+libraryDependencies += "com.github.japgolly.scalajs-react" %%% "core" % "1.4.2"
 
 name := "Scala.js Tutorial"
 scalaVersion := "2.12.6" // or any other Scala version >= 2.10.2
