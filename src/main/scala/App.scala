@@ -17,7 +17,7 @@ import org.scalajs.dom.html
  *   return (
  *     <div>
  *       <Toolbar />
- *       <canvas ref={ref} />
+ *       <canvas />
  *     </div>
  *   )
  * }
@@ -47,7 +47,7 @@ object App {
   .render_P { _ =>
     <.div(
       ToolbarComponent(),
-      <.canvas().withRef(canvasRef)
+      <.canvas()
     )
 
   }
